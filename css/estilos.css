@@ -1,0 +1,194 @@
+@import url(style.css);
+
+.horizont1{
+	background:#709f11;
+	width:100%;
+	height:8em;
+	position:absolute
+}
+
+.Header{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+	z-index: 1;
+}
+
+/*Header top*/
+.HeaderTop{
+	border-top: 13px solid #99cc33;
+	background: #eeeded;
+	width:100%;
+	height: 7.2em;
+	position: relative;
+}
+.HeaderCabecera{
+	display:inline-block;
+	position:relative;
+	max-width:100%;
+	height:100%;
+}
+.classCabecera{
+	width: 100%;
+	height:100%;
+}
+.HeaderLogo{
+	position: absolute;
+	top: 0;
+	margin: .3em 0 1em
+	3.5em;
+	max-width: 100%;
+	
+}
+
+.classLogo{
+	width: 100%;
+	height:100%;
+}
+
+
+.FuenteLogo{
+	width: 28%;
+	padding: 0;
+	position: absolute;
+	right: 28%;
+	height: 100%;
+	top: 0;
+}
+
+.FuenteTitle{
+	font-size: 1.5em;
+	color:#4d6e0b;
+	text-align: center;
+	margin:0;
+	padding-top: 2em;
+}
+
+.VerdeClaro{
+	font-size: .8em;
+	color:#99cc33;
+}
+
+.SocialRedes{
+	position: absolute;
+	top: 0;
+	right:0;
+	padding-right: .5em;
+}
+
+.HeaderDate{
+	font-size: .8em;
+	font-weight: bold;
+	color:rgb(52, 94, 7);
+}
+
+.HeaderSocial{
+	list-style: none;
+	font-size: 1.5em;
+	color:#709f11;
+	padding: 0;
+	margin: 2.2em .5em 0 0;
+	text-align: right;
+}
+
+.space{
+	display: inline-block;
+	padding-left: 1em;
+}
+/*Fin del HeaderTop*/
+
+/*HeaderBottom*/
+.HeaderBottom{
+	width:100%;
+	height:18.2em;
+	line-height: 3.2;
+	position: relative;
+	overflow: hidden;
+}
+
+.HeaderMenu{
+	width:25%;
+	display: inline-block;
+	position: absolute;
+	left:0;
+
+}
+
+.MenuList{
+	width:100%;
+	padding: 0;
+}
+
+.MenuItem{
+	width:100%;
+	height:3.23em;
+	background:#95c930;
+	border-bottom: 3px solid #9dd33a;
+	line-height: 3.8em;
+	color:#ffffff;
+	font-weight: bold;
+	font-size:1em ;
+	list-style: none;
+	text-align: center;
+
+}
+/***********************SLAIDERS**************************/
+.HeaderSlaider{
+	width: 72%;
+	/*height: 273px;*/
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	vertical-align: center;
+	margin-top: 1em;
+	margin-left: 1.2em;
+}
+
+.Slaider{
+	width: 100%;
+	height: 100%;
+}
+
+
+/****************************FIN SLAIDER***************************/
+.Container{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	
+}
+.Novedades{
+	width: 55%;
+	height:15em;
+	display: inline-block;
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	
+}
+
+.SubTitle{
+	font-size: 1.1em;
+	color:#9dd33a;
+	font-weight: normal;
+	margin-left:.5em;
+}
+
+.Video{
+	display:inline-block;
+	width:40%;
+	height:20em;
+	margin
+	padding: 0;
+	vertical-align: top;
+	border: 1px solid #BBBBBB;
+	border-radius: 4px;
+	}
+
+.youtube-player{
+	width: 100%;
+}
+.NovedadesImage{
+	width: 200px;
+	he
+}
