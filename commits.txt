@@ -1,0 +1,20 @@
+commit da276bf41f63a01d9b6da6effb3c1d50303fac4f
+
+Author: Isaac La Serna 
+<iclasac@outlook.es>
+
+Date:   Wed Nov 26 20:11:43 2014 -0500
+
+    
+Cambios de cabecera y parte novedades y video
+
+
+
+commit ec5a6817343a464bfdc2f328e8a4af0a1a4b9e5a
+
+Author: Isaac La Serna <iclasac@outlook.es>
+Date:   
+Wed Nov 26 18:53:18 2014 -0500
+
+    
+Sitio web Avanza Pucala

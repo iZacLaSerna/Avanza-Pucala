@@ -4,15 +4,16 @@
 	background: #F1EFF0;
 	border-top: 13px solid rgb(153, 204, 51);
 	width: 100%;
-	height: 8em;
+	height: 7em;
 	position: absolute;
+	border-bottom: 1px solid #DADADA;
 }
-.borde2{
+/*.borde2{
 	background: rgb(255, 253, 99);
 	width:100%;
 	height:7px;
-	/*margin-top:13px;*/
-}
+	/*margin-top:13px;
+}*/
 
 .Header{
 	width:90%;
@@ -30,12 +31,12 @@
 	height: 8em;
 	position: relative;
 }
-.HeaderCabecera{
+/*.HeaderCabecera{
 	display:inline-block;
 	position:relative;
 	max-width:100%;
 	height:100%;
-}
+}*/
 .classCabecera{
 	width: 100%;
 	height:100%;
@@ -43,66 +44,70 @@
 .HeaderLogo{
 	position: absolute;
 	top: .8em;
-	margin: .3em 0 1em
+	margin: .6em 0 1em
 	.5em;
 	padding-right:.5em;
 	max-width: 100%;
-	border-right:1px solid #999;
+	
 }
 
 .classLogo{
-	width: 100%;
-	height:100%;
+	width: 70%;
+	height:70%;
 }
 
 
 .FuenteLogo{
-	width: 28%;
+	width: 70%;
 	padding: 0;
-	position: absolute;
-	right: 28%;
-	height: 100%;
-	top: 0;
+	display:inline-block;
+	vertical-align: top;
+	margin-left:9em;
 }
 
 .FuenteTitle{
-	font-size: 1.5em;
+	font-size: 2em;
 	color:#4d6e0b;
-	text-align: center;
 	margin:0;
-	padding-top: 2em;
+	padding-top: .7em;
 }
 
 .VerdeClaro{
-	font-size: .8em;
-	color:#99cc33;
+	font-size: .7em;
+	color:#82AD2C;
+	padding-left:.2em;
 }
 
 .SocialRedes{
 	position: absolute;
-	top: 0;
+	display: inline-block;
 	right:0;
-	padding-right: .5em;
+	/*padding-right: .5em;*/
 }
 
-.HeaderDate{
+/*.HeaderDate{
 	font-size: .8em;
 	font-weight: bold;
 	color:rgb(52, 94, 7);
-}
+}*/
 
 .HeaderSocial{
 	list-style: none;
 	font-size: 1.5em;
 	color:#709f11;
-	padding: 0;
-	margin: 2.2em .5em 0 0;
-	text-align: right;
+	/*padding: 0;*/
+	margin: 0.4em .0;
+	/*text-align: right;*/
 }
 
 .space{
-	display: inline-block;
+	/*display: inline-block;*/
 	padding-left: 1em;
+
+}
+
+.Twiter{
+	margin:.5em 0 ;
 }
 /*Fin del HeaderTop*/
 
@@ -165,7 +170,7 @@
 	height:100%;
 	margin:0 auto;
 	margin-top: 1em;
-	background-color: green;
+	background-color: #f4f4f4;
 }
 
 .ContainerInfo{
