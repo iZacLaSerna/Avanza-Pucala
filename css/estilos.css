@@ -8,12 +8,6 @@
 	position: absolute;
 	border-bottom: 1px solid #DADADA;
 }
-/*.borde2{
-	background: rgb(255, 253, 99);
-	width:100%;
-	height:7px;
-	/*margin-top:13px;
-}*/
 
 .Header{
 	width:90%;
@@ -31,16 +25,12 @@
 	height: 8em;
 	position: relative;
 }
-/*.HeaderCabecera{
-	display:inline-block;
-	position:relative;
-	max-width:100%;
-	height:100%;
-}*/
+
 .classCabecera{
 	width: 100%;
 	height:100%;
 }
+
 .HeaderLogo{
 	position: absolute;
 	top: .8em;
@@ -48,7 +38,6 @@
 	.5em;
 	padding-right:.5em;
 	max-width: 100%;
-	
 }
 
 .classLogo{
@@ -82,28 +71,17 @@
 	position: absolute;
 	display: inline-block;
 	right:0;
-	/*padding-right: .5em;*/
 }
-
-/*.HeaderDate{
-	font-size: .8em;
-	font-weight: bold;
-	color:rgb(52, 94, 7);
-}*/
 
 .HeaderSocial{
 	list-style: none;
 	font-size: 1.5em;
 	color:#709f11;
-	/*padding: 0;*/
 	margin: 0.4em .0;
-	/*text-align: right;*/
 }
 
 .space{
-	/*display: inline-block;*/
 	padding-left: 1em;
-
 }
 
 .Twiter{
@@ -182,12 +160,13 @@
 	width: 75%;
 	height:15em;
 	display: inline-block;
-	/*border: 1px solid #BBBBBB;*/
-	/*border-radius: 4px;*/
 	margin-top: 1em;
 }
 
 .SubTitle{
+	border-bottom: 1px solid green;
+	padding-bottom: .5em;
+	width:90%;
 	font-size: 1.1em;
 	color:#9dd33a;
 	font-weight: normal;
@@ -197,8 +176,14 @@
 .NovedadesImage{
 	margin-left: 1em;
 	border: 4px solid #DFDDDD;
+	display:inline-block;
 }
 
+.txt{
+	display: inline-block;
+	vertical-align: top;
+	width:50%;
+}
 .Video{
 	display:inline-block;
 	width:20%;
