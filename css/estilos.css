@@ -117,13 +117,19 @@
 	background:#95c930;
 	border-bottom: 3px solid #9dd33a;
 	line-height: 3.8em;
-	color:#ffffff;
 	font-weight: bold;
 	font-size:1em ;
 	list-style: none;
 	text-align: center;
+}
+
+.Item_list{
+	display:block;
+	color:#ffffff;
+	text-decoration: none;
 
 }
+
 /***********************SLAIDERS**************************/
 .HeaderSlaider{
 	width: 72%;
@@ -152,9 +158,10 @@
 }
 
 .ContainerInfo{
-	width:90%;
-	height:100%;
-	margin:0 auto;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 .Novedades{
 	width: 75%;
@@ -166,49 +173,75 @@
 .SubTitle{
 	border-bottom: 1px solid green;
 	padding-bottom: .5em;
-	width:90%;
-	font-size: 1.1em;
+	width:100%;
+	font-size: 1.3em;
 	color:#9dd33a;
 	font-weight: normal;
-	margin-left:.5em;
+	margin: 0;
 }
 
+.RepitNot{
+	margin-top:1em;
+}
 .NoveImage{
 	margin: 0;
 	display: inline-block;
+	width: 34%;
 }
 
 .NovedadesImage{
-	margin-left: 1em;
+	width:100%;
 	border: 4px solid #DFDDDD;
 }
 
-.txt{
+.NewContent{
 	display: inline-block;
+	width: 63%;
 	vertical-align: top;
-	width: 54%;
-	margin: 0 .5em;
+	margin-left:.5em;
+	position: relative;
 }
+.TitleNovedades{
+	font-size: 1.1em;
+	color: black;
+	font-weight: bold;
+	margin-top: 0;
+	margin-left: 0.5em;
+}
+
+.txt{
+	vertical-align: top;
+	margin: 0 .5em;
+	
+}
+
+.VermasContent{
+	position: absolute;
+	right: 0;
+	margin-top: .5em;
+}
+
+.Vermas{
+	padding: .5em;
+	background: rgb(149, 201, 48);
+
+}
+
 
 
 
 /*************VIDEO***************/
 
 .Video{
-	display:inline-block;
-	width:20%;
-	height:20em;
-	margin
-	padding: 0;
-	vertical-align: top;
-	/*border: 1px solid #BBBBBB;
-	border-radius: 4px;*/
+	display: inline-block;
+	width: 20%;
+	height: 20em;
+	position: absolute;
+	top: 1em;
+	right: 0;
 	}
 
 .youtube-player{
 	width: 100%;
-}
-.NovedadesImage{
-	width: 200px;
-	he
+	margin-top:1em;
 }
