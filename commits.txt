@@ -1,20 +1,23 @@
+commit 7edb1e230a77c61e1e989d467a2533d523fd5be6
+Author: Isaac La Serna <iclasac@outlook.es>
+Date:   Thu Nov 27 16:27:44 2014 -0500
+
+    modificando contenido novedades
+
+commit b192f8e2c3da96f6c9cff341ffd3e771448ecde2
+Author: Isaac La Serna <iclasac@outlook.es>
+Date:   Thu Nov 27 16:09:24 2014 -0500
+
+    Cambios pucala cabecera
+
 commit da276bf41f63a01d9b6da6effb3c1d50303fac4f
-
-Author: Isaac La Serna 
-<iclasac@outlook.es>
-
+Author: Isaac La Serna <iclasac@outlook.es>
 Date:   Wed Nov 26 20:11:43 2014 -0500
 
-    
-Cambios de cabecera y parte novedades y video
-
-
+    Cambios de cabecera y parte novedades y video
 
 commit ec5a6817343a464bfdc2f328e8a4af0a1a4b9e5a
-
 Author: Isaac La Serna <iclasac@outlook.es>
-Date:   
-Wed Nov 26 18:53:18 2014 -0500
+Date:   Wed Nov 26 18:53:18 2014 -0500
 
-    
-Sitio web Avanza Pucala
+    Sitio web Avanza Pucala

@@ -173,17 +173,27 @@
 	margin-left:.5em;
 }
 
+.NoveImage{
+	margin: 0;
+	display: inline-block;
+}
+
 .NovedadesImage{
 	margin-left: 1em;
 	border: 4px solid #DFDDDD;
-	display:inline-block;
 }
 
 .txt{
 	display: inline-block;
 	vertical-align: top;
-	width:50%;
+	width: 54%;
+	margin: 0 .5em;
 }
+
+
+
+/*************VIDEO***************/
+
 .Video{
 	display:inline-block;
 	width:20%;
