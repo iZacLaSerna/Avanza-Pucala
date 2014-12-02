@@ -222,12 +222,16 @@
 .VermasContent{
 	position: absolute;
 	right: 0;
-	margin-top: .5em;
+	margin-top: 2em;
 }
 
 .Vermas{
 	padding: .5em;
 	background: rgb(149, 201, 48);
+	border-radius: 4px;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
 
 }
 
