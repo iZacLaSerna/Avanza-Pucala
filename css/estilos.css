@@ -166,6 +166,7 @@
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
+	padding-bottom:5em;
 }
 .Novedades{
 	width: 75%;
@@ -188,7 +189,7 @@
 	margin-top:1em;
 	border-bottom: 1px solid green;
 	margin-bottom: 1em;
-
+	padding-bottom: .5em;
 }
 
 .NoveImage{
@@ -265,6 +266,37 @@
 	vertical-align: top;
 	position: absolute;
 	right:0;
-	top:0;
+	top:14.81em;
 
+}
+
+/*******************Footer*******/
+.Footer{
+	background: #749D27;
+}
+
+.map-content {
+	width: 90%;
+	text-align: center;
+/* list-style: none; */
+}
+
+.FooterList{
+	margin:0;
+	margin: 0;
+	list-style: none;
+/* display: inline-block; */
+	padding-top: 1em;
+}
+
+.FooterItem {
+display: inline-block;
+padding: 0 .5em;
+color: white;
+font-weight: bold;
+}
+
+.Logopie {
+width: 90%;
+margin: 0 auto;
 }
