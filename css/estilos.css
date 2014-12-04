@@ -17,7 +17,7 @@
 	z-index: 1;
 }
 
-/*Header top*/
+/*********Header top************/
 .HeaderTop{
 	border-top: 13px solid #99cc33;
 	/*background: #eeeded;*/
@@ -93,7 +93,7 @@
 
 .pointer{
 	text-decoration: none;
-	color:#709f11;
+	color:#99CC33;
 	transition:.3s;
 	-webkit-transition:.3s;
 	-moz-transition:.3s;
@@ -102,7 +102,7 @@
 }
 
 .pointer:hover{
-	color:#A2A39F;
+	color:#D7D7D7;
 }
 
 
@@ -113,9 +113,9 @@
 .Twiter{
 	margin:.5em 0 ;
 }
-/*Fin del HeaderTop*/
+/********Fin del HeaderTop************/
 
-/*HeaderBottom*/
+/*********HeaderBottom**************/
 .HeaderBottom{
 	width:100%;
 	height:18.2em;
@@ -169,7 +169,6 @@
 /***********************SLAIDERS**************************/
 .HeaderSlaider{
 	width: 72%;
-	/*height: 273px;*/
 	display: inline-block;
 	position: absolute;
 	right: 0;
@@ -184,7 +183,9 @@
 }
 
 
-/****************************FIN SLAIDER***************************/
+/***************FIN SLAIDER**************/
+
+/***************CONTENIDO**************/
 .Container{
 	width:100%;
 	height:100%;
@@ -198,15 +199,22 @@
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
-	padding-bottom:5em;
+	padding-bottom:1em;
 }
 .Novedades{
 	width: 75%;
-	height:15em;
-	display: inline-block;
 	margin-top: 1em;
+	overflow:hidden;
+	margin-top:1em;
+	border-bottom: 1px solid green;
+	margin-bottom: 1em;
+	padding-bottom: .5em;
 }
 
+.ContentSubtitle{
+	width: 75%;
+	padding-top: 1em;
+}
 .SubTitle{
 	border-bottom: 1px solid green;
 	padding-bottom: .5em;
@@ -217,31 +225,20 @@
 	margin: 0;
 }
 
-.RepitNot{
-	margin-top:1em;
-	border-bottom: 1px solid green;
-	margin-bottom: 1em;
-	padding-bottom: .5em;
-}
-
-.NoveImage{
-	margin: 0;
-	display: inline-block;
-	width: 34%;
-}
 
 .NovedadesImage{
-	width:100%;
+	width:300px;
+	height:182px;
 	border: 4px solid #DFDDDD;
+	float:left;
+	margin-bottom:.7em;
 }
 
 .NewContent{
-	display: inline-block;
-	width: 63%;
-	vertical-align: top;
-	margin-left:.5em;
-	/*position: relative;*/
+	margin-left:20em;
+	margin-right:.5em;
 }
+
 .TitleNovedades{
 	font-size: 1.1em;
 	color: black;
@@ -258,7 +255,7 @@
 
 .VermasContent{
 	text-align: right;
-	padding: 2em .5em 2em 0;
+	padding: 0.5em .5em 0 0;
 }
 
 .Vermas{
@@ -292,7 +289,7 @@
 	position: absolute;
 	top: 1em;
 	right: 0;
-	}
+}
 
 .youtube-player{
 	width: 100%;
@@ -335,12 +332,12 @@
 	color: rgb(23, 31, 8);
 	/*font-weight: bold;*/
 	font-size:.9em;
-	margin: 0 .5em;
-	transition:.5s;
-	-webkit-transition:.5s;
-	-moz-transition:.5s;
-	-ms-transition:.5s;
-	-o-transition:.5s;
+	margin: 0 .4em;
+	transition:.4s;
+	-webkit-transition:.4s;
+	-moz-transition:.4s;
+	-ms-transition:.4s;
+	-o-transition:.4s;
 }
 .FooterList-submenu:hover{
 	color:rgb(221, 231, 203);
