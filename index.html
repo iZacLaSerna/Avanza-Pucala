@@ -97,7 +97,8 @@
 			</aside>
 		
 			<aside class="ContentFacebook">
-				<h1 class="SubTitle">Facebook</h1>		
+				<h1 class="SubTitle">Facebook</h1>	
+				<div class="fb-facepile" data-href="https://www.facebook.com/avanza.pucala?fref=ts" data-width="250px" data-max-rows="2" data-colorscheme="light" data-size="medium" data-show-count="true"></div>	
 			</aside>
 		</div>
 		
@@ -142,7 +143,14 @@
 		
 	<!-- </div> -->
 	<!--SCRIPTS SLAIDER-->
-
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<!--FIN SCRIPTS SLAIDER-->
 </body>
 </html>
