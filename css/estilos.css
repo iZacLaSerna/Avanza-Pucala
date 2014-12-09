@@ -1,4 +1,5 @@
 @import url(style.css);
+@import url(flexslider.css);
 
 .horizont1{
 	background: #F1EFF0;
@@ -89,6 +90,7 @@
 	list-style: none;
 	font-size: 1.5em;
 	margin: 0.4em .0;
+	position:relative;
 }
 
 .pointer{
@@ -104,7 +106,6 @@
 .pointer:hover{
 	color:#D7D7D7;
 }
-
 
 .space{
 	padding-left: 1em;
@@ -171,7 +172,7 @@
 	width: 72%;
 	display: inline-block;
 	position: absolute;
-	right: 0;
+	right: 1px;
 	vertical-align: center;
 	margin-top: 1em;
 	margin-left: 1.2em;

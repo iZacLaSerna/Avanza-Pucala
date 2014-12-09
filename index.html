@@ -5,6 +5,7 @@
 	<title>Avanza Pucala</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
 </head>
 
 <body>
@@ -28,7 +29,8 @@
 			<div class="SocialRedes">
 								
 				<ul class="HeaderSocial">
-					<a class="pointer" href="https://www.facebook.com/avanza.pucala?ref=ts&fref=ts"><li class="Facebook icon-facebook space"></li></a>
+					<a class="pointer " href="https://www.facebook.com/avanza.pucala?ref=ts&fref=ts"><li class="Facebook icon-facebook space"></li></a>
+					
 					<a class="pointer" href=""><li class="Twiter icon-twitter space"></li></a>		
 					<a class="pointer" href=""><li class="Youtube icon-youtube space"></li></a>
 				</ul>
@@ -47,7 +49,14 @@
 		</nav>
 
 		<figure class="HeaderSlaider">
-			<img src="img/slaider.jpg" width="685px" height="305px" alt="" class="Slaider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li><img src="img/slaider.jpg" /></li>
+					<li><img src="img/slaider-1.jpg" /></li>
+					<li><img src="img/slaider-2.jpg" /></li>
+				</ul>
+			</div>
+			<!-- <img src="img/slaider.jpg" width="685px" height="305px" alt="" class="Slaider"> -->
 		</figure> 
 		</div>
 	</header>
@@ -144,7 +153,28 @@
 				Todos los derechos reservados 2014 <span>Sitio web desarrollado por iclasac@outlook.es</span>
 			</p>
 	</footer>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+
+		<script>
 		
+
+			$(window).load(function() {
+  				$('.flexslider').flexslider({
+   				animation: "slide"
+  					});
+			});
+
+			
+
+			/*$(window).load(function() {
+  				$('.flexslider').flexslider({
+   				animation: "slide",
+   				itemWidth: 320
+  				});
+			});*/
+		</script>	
 	
 </body>
 </html>
