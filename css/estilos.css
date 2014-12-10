@@ -94,6 +94,7 @@
 }
 
 .pointer{
+	border:none;
 	text-decoration: none;
 	color:#99CC33;
 	transition:.3s;
@@ -106,6 +107,12 @@
 .pointer:hover{
 	color:#D7D7D7;
 }
+
+a:focus, a:active
+{
+   outline: none;
+}
+
 
 .space{
 	padding-left: 1em;
@@ -187,6 +194,10 @@
 /***************FIN SLAIDER**************/
 
 /***************CONTENIDO**************/
+.Mostrarme{
+	display:none;
+}
+
 .Container{
 	width:100%;
 	height:100%;
