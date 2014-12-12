@@ -1,5 +1,6 @@
 @import url(style.css);
 @import url(flexslider.css);
+/*@import url(animate.css);*/
 
 .horizont1{
 	background: #F1EFF0;
@@ -121,7 +122,7 @@ a:focus, a:active
 .Twiter{
 	margin:.5em 0 ;
 }
-/********Fin del HeaderTop************/
+
 
 /*********HeaderBottom**************/
 .HeaderBottom{
@@ -192,7 +193,7 @@ a:focus, a:active
 }
 
 
-/***************FIN SLAIDER**************/
+
 
 /***************CONTENIDO**************/
 .Mostrarme{
@@ -214,6 +215,15 @@ a:focus, a:active
     background:#628E0D;
 	border-bottom: 3px solid #5F8023;
     }
+
+
+/*efecto*/
+/*.efecto{
+	position:relative;
+	left:-80%;
+}*/
+
+
 /**************Fin cambio de paginado****************/
 
 .ContainerInfo{
@@ -224,7 +234,19 @@ a:focus, a:active
 	padding-bottom:1em;
 }
 .Medida{
+	position:relative;
+	left:-75%;
 	width: 75%;
+	margin-top: 1em;
+	overflow:hidden;
+	margin-top:1em;
+	/*border-bottom: 1px solid green;*/
+	margin-bottom: 1em;
+	padding-bottom: .5em;
+}
+
+.tamanio{
+	width: 100%;
 	margin-top: 1em;
 	overflow:hidden;
 	margin-top:1em;
@@ -234,13 +256,13 @@ a:focus, a:active
 }
 
 .ContentSubtitle{
-	width: 75%;
+	width: 100%;
 	padding-top: 1em;
 }
 .SubTitle{
 	border-bottom: 1px solid green;
 	padding-bottom: .5em;
-	width:100%;
+	/*width:100%;*/
 	font-size: 1.3em;
 	color:#9dd33a;
 	font-weight: normal;
@@ -360,6 +382,15 @@ a:focus, a:active
 	-ms-transition:.4s;
 	-o-transition:.4s;
 }
+/**********/
+/*.acti{
+	color:rgb(221, 231, 203);
+	padding-bottom:.2em;
+	border-bottom:3px solid rgb(221, 231, 203);
+}
+*/
+
+/**************/
 .FooterList-submenu:hover{
 	color:rgb(221, 231, 203);
 	padding-bottom:.2em;

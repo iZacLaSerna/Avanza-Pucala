@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:fb="http://ogp.me/ns/fb#"> 
+<html lang="en" > 
 <head>
 	<meta charset="UTF-8">
 	<title>Avanza Pucala</title>
@@ -63,13 +63,15 @@
 
 	<section class="Container">
 		<div class="ContainerInfo">	
-			<div id="Novedades">
+		<!-- inicio contenido menu -->
+			<div id="Novedades" class="desaparecer Medida ">
 				
 				<div class="ContentSubtitle">
 					<h1 class="SubTitle">
 					Novedades</h1>
 				</div>
-				<article class="Medida">
+				
+				<article class="tamanio">
 
 					<figure class="NoveImage">
 						<img src="img/01.jpg" alt="" class="NovedadesImage">
@@ -82,9 +84,11 @@
 						<p class="VermasContent"><a class="Vermas" href="">Ver más</a></p>
 						
 					</div>
+
 				</article>
 
-				<article class="Medida">
+				
+				<article class="tamanio">
 
 					<figure class="NoveImage">
 						<img src="img/01.jpg" alt="" class="NovedadesImage">
@@ -99,35 +103,35 @@
 					</div>
 				</article>
 			</div>				
-	<!-- inicio nosotros -->
-			<div id="Nosotros" class="desaparecer Medida">
+	
+			<div id="Nosotros" class="desaparecer Medida ">
         
 		        <h1 class="nosotros">Nosotros</h1>
 		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed molestiae mollitia officiis, voluptatibus, perferendis. Officia pariatur quaerat quas blanditiis ullam, ipsum, consequuntur omnis iste at, laudantium repellendus dolorem consequatur!</p>
 
 		    </div>
 
-		    <div id="Asociados" class="desaparecer Medida">
+		    <div id="Asociados" class="desaparecer Medida ">
 		        
-		        <h1 class="nosotros">Asociados</h1>
+		        <h1 class="nosotros ">Asociados</h1>
 		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed molestiae mollitia officiis, voluptatibus, perferendis. Officia pariatur quaerat quas blanditiis ullam, ipsum, consequuntur omnis iste at, laudantium repellendus dolorem consequatur!</p>
 
 		    </div>
 
-		    <div id="Estatutos" class="desaparecer Medida">
+		    <div id="Estatutos" class="desaparecer Medida ">
 		        
 		        <h1 class="nosotros">Estatutos</h1>
 		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed molestiae mollitia officiis, voluptatibus, perferendis. Officia pariatur quaerat quas blanditiis ullam, ipsum, consequuntur omnis iste at, laudantium repellendus dolorem consequatur!</p>
 
 		    </div>
 
-		    <div id="Contacto" class="desaparecer Medida">
+		    <div id="Contacto" class="desaparecer Medida ">
 		        
 		        <h1 class="nosotros">Contacto</h1>
 		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed molestiae mollitia officiis, voluptatibus, perferendis. Officia pariatur quaerat quas blanditiis ullam, ipsum, consequuntur omnis iste at, laudantium repellendus dolorem consequatur!</p>
 
 		    </div>
-	<!-- fin de nosotros -->
+	<!-- fin de contenido menu -->
 
 			<aside class="Video">
 			<h1 class="SubTitle">Videos</h1>
@@ -152,11 +156,11 @@
 	<footer class="Footer">
 		<div class="map-content">
 			<ul class="FooterList">
-				<li class="FooterItem"><a class="FooterList-submenu" href="">Nosotros</a></li>
-				<li class="FooterItem"><a class="FooterList-submenu" href="">Estatutos</a></li>
-				<li class="FooterItem"><a class="FooterList-submenu" href="">Asociados</a></li>
-				<li class="FooterItem"><a class="FooterList-submenu" href="">Noticias</a></li>
-				<li class="FooterItem"><a class="FooterList-submenu" href="">Contacto</a></li>
+				<li id="NovedadesCClick" class="FooterItem"><a class="FooterList-submenu" href="">Novedades</a></li>
+				<li id="NosotrosCClick" class="FooterItem"><a class="FooterList-submenu" href="">Nosotros</a></li>
+				<li id="AsociadosCClick" class="FooterItem"><a class="FooterList-submenu" href="">Asociados</a></li>
+				<li id="EstatutosCClick" class="FooterItem"><a class="FooterList-submenu" href="">Estatutos</a></li>
+				<li id="ContactoCClick" class="FooterItem"><a class="FooterList-submenu" href="">Contacto</a></li>
 			</ul>
 		</div>
 
@@ -187,6 +191,7 @@
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/misjQuery.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
+	
 
 		<script>
 		
