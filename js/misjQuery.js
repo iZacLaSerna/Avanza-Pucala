@@ -53,6 +53,35 @@
         
             $(document).ready(inicializar); 
 
+
+            function asociados(){
+                $('#eventoAsocia').addClass('desaparecer');
+                $('#eventos').click(aparecer);
+
+                function aparecer(){
+                    $('#afiliacionAsocia').hide('fast');
+                    $('#eventoAsocia').show('fast', function(){
+                        $('#eventos').addClass('selecactive');
+                        $('#afiliacion').removeClass('selecactive');
+
+                    });
+
+                    $('#afiliacion').click(desapar);
+
+                    function desapar(){
+                        $('#afiliacionAsocia').show('fast', function(){
+                            $('#afiliacion').addClass('selecactive');
+                            $('#eventos').removeClass('selecactive');
+                        });
+                        $('#eventoAsocia').hide('fast');
+                    }
+                    
+                    // $('#eventoAsocia').removeClass('desaparecer');
+                }
+            }
+
+            $(document).ready(asociados);
+
             /****************piemapa**************/
 
         // function Menufooter(){
