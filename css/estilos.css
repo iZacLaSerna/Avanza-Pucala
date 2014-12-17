@@ -236,7 +236,7 @@ a:focus, a:active
 .Medida{
 	position:relative;
 	left:-75%;
-	width: 75%;
+	width: 100%;
 	margin-top: 1em;
 	overflow:hidden;
 	margin-top:1em;
@@ -246,7 +246,7 @@ a:focus, a:active
 }
 
 .tamanio{
-	width: 100%;
+	width: 75%;
 	margin-top: 1em;
 	overflow:hidden;
 	margin-top:1em;
@@ -256,7 +256,7 @@ a:focus, a:active
 }
 
 .ContentSubtitle{
-	width: 100%;
+	width: 75%;
 	padding-top: 1em;
 }
 .SubTitle{
@@ -480,7 +480,7 @@ a:focus, a:active
 	margin:1em 0 1em 0;
 }
 
-.SubTitleNosotros{
+.SubTitleGeneral{
 	font-size: 1.7em;
 	color:#D9DDD2;
 	font-weight: bold;
@@ -514,13 +514,134 @@ a:focus, a:active
 .NosotrosImage-content{
 	display: inline-block;
 	margin-left: 2em;
+	width:18%;
+	height:18%;
 }
 
 .NosotrosImage{
-	width: 200px;
-	height:200px;
+	width: 100%;
+	height:100%;
 	border:6px solid white;
 	box-shadow: 1px 3px 10px rgba(0,0,0,.3) ;
 	border-radius:50%;
 }
 
+/***********Asociados*************/
+
+.ButtonAsociados, .ButtonAsocia {
+	background-color:#FD9053;/*#DADADA*/
+	width:7em;
+	height:3em;
+	font-size:1em;
+	color:white;
+	border:none;
+	display:inline-block;
+	float:left;
+	border-radius: 3px;
+}
+
+.ButtonAsociados:hover, .ButtonAsocia:hover {
+	background-color:#D7530A;
+	color:white;
+}
+
+.selecactive{
+	background-color:#D7530A;
+	color:white;
+}
+
+.ButtonAsocia{
+	margin-top:4em;
+	margin-left:-7em;
+
+}
+
+.ContentAfiliacion{
+	width: 60%;
+	display: inline-block;
+}
+.ContentImage-afiliado{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 3em;
+}
+
+.AfiliadoImage{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 6px solid white;
+	box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+}
+
+.MostrarAfiliacion{
+	display: inline-block;
+	width: 75%;
+	margin-left: 4em;
+}
+
+.TitleAfiliacion{
+	margin-top: 0;
+	font-size: 1.3em;
+	color:#9dd33a;
+	font-weight: bold;
+}
+
+.SubTitle-afilia{
+	color:#9dd33a;
+	font-size: 1em;
+}
+
+.TitleAfilia{
+	color:#9dd33a;
+	font-size: 1em;
+	margin: 0;
+}
+
+.TextContentAfilia{
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em 0 1em 2em;
+	line-height: 23px;
+}
+
+.BotonAfiliate-ahora{
+	display: block;
+	background-color: #9dd33a;
+	width: 7em;
+	height: 3em;
+	font-size: 1em;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	margin-top:2em;
+	margin: auto;
+	margin-top: 1.5em;
+}
+
+.BotonAfiliate-ahora:hover, .EventosAnteriores:hover{
+	background-color:#719927;
+}
+
+.EventosAnteriores{
+	background-color: #9dd33a;
+	height: 2em;
+	font-size: 1em;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+.ItemEventos{
+	list-style: none;
+	margin-bottom:1em;
+	font-style: italic;
+}
+
+.ItemEventos:hover{
+	color:#FD9053;
+	text-decoration: underline;
+	cursor:pointer;
+
+}
