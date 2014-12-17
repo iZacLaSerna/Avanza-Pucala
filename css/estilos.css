@@ -538,6 +538,7 @@ a:focus, a:active
 	display:inline-block;
 	float:left;
 	border-radius: 3px;
+	outline: none;
 }
 
 .ButtonAsociados:hover, .ButtonAsocia:hover {
@@ -575,7 +576,7 @@ a:focus, a:active
 	box-shadow: 2px 3px 5px rgba(0,0,0,.3);
 }
 
-.MostrarAfiliacion{
+.MostrarAfiliacion, .MostrarEvento{
 	display: inline-block;
 	width: 75%;
 	margin-left: 4em;
@@ -618,6 +619,7 @@ a:focus, a:active
 	margin-top:2em;
 	margin: auto;
 	margin-top: 1.5em;
+	outline: none;
 }
 
 .BotonAfiliate-ahora:hover, .EventosAnteriores:hover{
@@ -631,6 +633,7 @@ a:focus, a:active
 	color: white;
 	border: none;
 	border-radius: 4px;
+	outline: none;
 }
 
 .ItemEventos{
@@ -645,3 +648,11 @@ a:focus, a:active
 	cursor:pointer;
 
 }
+
+/*********Acordeon***********/
+.SubItem-event{
+	display:none;
+}
+
+.SubitemActivado{
+	color: #FD9053 !important;

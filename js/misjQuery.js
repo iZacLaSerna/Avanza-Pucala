@@ -53,14 +53,15 @@
         
             $(document).ready(inicializar); 
 
-
+/*********Seccion Asociados*************/
             function asociados(){
                 $('#eventoAsocia').addClass('desaparecer');
                 $('#eventos').click(aparecer);
 
+
                 function aparecer(){
-                    $('#afiliacionAsocia').hide('fast');
-                    $('#eventoAsocia').show('fast', function(){
+                    $('#afiliacionAsocia').hide();
+                    $('#eventoAsocia').show(function(){
                         $('#eventos').addClass('selecactive');
                         $('#afiliacion').removeClass('selecactive');
 
@@ -69,18 +70,43 @@
                     $('#afiliacion').click(desapar);
 
                     function desapar(){
-                        $('#afiliacionAsocia').show('fast', function(){
+                        $('#afiliacionAsocia').show(function(){
                             $('#afiliacion').addClass('selecactive');
                             $('#eventos').removeClass('selecactive');
                         });
-                        $('#eventoAsocia').hide('fast');
+                        $('#eventoAsocia').hide();
                     }
                     
                     // $('#eventoAsocia').removeClass('desaparecer');
                 }
+                return false;
+
             }
 
             $(document).ready(asociados);
+
+            //Funcion encargada de abrir y mostrar la seccion eventos anteriores
+
+            function eventos(){
+                $('.ContentItem-eventos').hide();
+                $('.EventosAnteriores').click(AbrirEventosAnt);
+                $(".ItemEventos").click(abrirPdf);
+               
+                function AbrirEventosAnt(){
+                    $('.ContentItem-eventos').toggle();
+
+                }
+
+                function abrirPdf(){
+                $(".SubitemActivado").children().eq(1).hide();
+                $(".SubitemActivado").removeClass("SubitemActivado");
+                $(this).children().eq(1).fadeIn();
+                $(this).addClass("SubitemActivado");
+                }
+            }
+
+            $(document).ready(eventos);
+
 
             /****************piemapa**************/
 
