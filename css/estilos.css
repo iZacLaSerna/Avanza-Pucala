@@ -209,8 +209,8 @@ a:focus, a:active
 }
 /**************estilos del cambio de paginado****************/
 .desaparecer{
-        display:none;
-    }
+        display:none;  
+ }
 .active{
     background:#628E0D;
 	border-bottom: 3px solid #5F8023;
@@ -582,6 +582,12 @@ a:focus, a:active
 	margin-left: 4em;
 }
 
+/*.MostrarEvento{
+	display: inline-block;
+	width: 75%;
+	margin-left: 4em;
+}*/
+
 .TitleAfiliacion{
 	margin-top: 0;
 	font-size: 1.3em;
@@ -656,3 +662,5 @@ a:focus, a:active
 
 .SubitemActivado{
 	color: #FD9053 !important;
+}
+

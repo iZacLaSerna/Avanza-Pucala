@@ -55,7 +55,7 @@
 
 /*********Seccion Asociados*************/
             function asociados(){
-                $('#eventoAsocia').addClass('desaparecer');
+                $('#eventoAsocia').hide();
                 $('#eventos').click(aparecer);
 
 
@@ -79,7 +79,7 @@
                     
                     // $('#eventoAsocia').removeClass('desaparecer');
                 }
-                return false;
+                
 
             }
 
