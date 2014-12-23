@@ -8,7 +8,9 @@
         // }
 
         function inicializar(){
-
+                $('.Vermas').click(function(){
+                    return false
+                });
                 //Al cargar el sitio aparece el contenido de novedades.
                 $('#Novedades').removeClass('desaparecer');
                 $('#Novedades').animate({
@@ -91,7 +93,8 @@
                 $('.ContentItem-eventos').hide();
                 $('.EventosAnteriores').click(AbrirEventosAnt);
                 $(".ItemEventos").click(abrirPdf);
-               
+                $('.SubItem-event li a').click(stop);
+
                 function AbrirEventosAnt(){
                     $('.ContentItem-eventos').toggle();
 
@@ -103,37 +106,16 @@
                 $(this).children().eq(1).fadeIn();
                 $(this).addClass("SubitemActivado");
                 }
+
+                function stop(){
+                    return false;
+                }
             }
 
             $(document).ready(eventos);
 
 
-            /****************piemapa**************/
-
-        // function Menufooter(){
-
-        //         $('.FooterItem').click(function(){
-        //             var idBoxSelec = '#'+$(this).attr('id');  
-        //             var idBoxSelec = idBoxSelec.replace("CClick","");
-                    
-        //             $('.FooterItem').each(function(){
-        //                   var idBoxFo = '#'+$(this).attr('id');    
-        //                   var idBoxFo = idBoxFo.replace("CClick","");
-        //                   $(idBoxFo).addClass('desaparecer');
-        //             });
-                    
-        //             $(idBoxSelec).removeClass('desaparecer');
-        //             var efecto=$(idBoxSelec).removeClass('desaparecer');
-        //             $(efecto).animate({
-        //                 opacity: 1,
-        //                 left:'0%'},200);
-                    
-                    
-        //         });
-                
-        // };
-        
-        //     $(document).ready(Menufooter); 
+       
         
 
        

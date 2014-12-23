@@ -650,14 +650,31 @@ a:focus, a:active
 
 .ItemEventos:hover{
 	color:#FD9053;
-	text-decoration: underline;
 	cursor:pointer;
 
 }
 
 /*********Acordeon***********/
+.ItemDate{
+	position: absolute;
+	right: 270px;
+}
+
 .SubItem-event{
 	display:none;
+	text-align: right;
+	list-style: none;
+}
+
+
+.SubItem-event li a{
+	margin-left:1em;
+	text-decoration: none;
+	color:black;
+}
+
+.SubItem-event li a:hover{
+	font-weight: bold
 }
 
 .SubitemActivado{
