@@ -8,9 +8,7 @@
         // }
 
         function inicializar(){
-                $('.Vermas').click(function(){
-                    return false
-                });
+
                 //Al cargar el sitio aparece el contenido de novedades.
                 $('#Novedades').removeClass('desaparecer');
                 $('#Novedades').animate({
@@ -19,8 +17,11 @@
                 $('#Novedades').animate({
                     opacity:1,
                     left:'0%'},200);
+
+
                 //Cuando se pulsa un elemento del menu
                 $('.MenuItem').click(function(){
+                    
                     $('.Medida').animate({
                        opacity: 0,
                        left:'-8%'},200);
@@ -34,11 +35,12 @@
                     
                     //Quito la clase active a todos los botones, y oculto todos los div
                     $('.MenuItem').each(function(){
-                            var idBox = '#'+$(this).attr('id');    
+                          var idBox = '#'+$(this).attr('id');    
                           var idBox = idBox.replace("Click","");
                           $(this).removeClass('active');
                           $(idBox).addClass('desaparecer');
                     });
+
                     //Por ultimo, muestro activo el boton que pulsé
                     $(this).addClass('active');
                     //Y des-oculto el div correspondiente
@@ -47,14 +49,34 @@
                     $(efect).animate({
                         opacity: 1,
                         left:'0%'},200);
-                    
-                    
+                    $('#MostrarVermas').addClass('desaparecer');
                 });
                 
         };
         
             $(document).ready(inicializar); 
 
+/***************boton vermas home*************************/
+            $(document).ready(botonVermas);
+
+            function botonVermas(){
+                    $('.Vermas').click(masNovedades);
+                    $('#NovedadesClick').click(verteotravez);
+                    function masNovedades(){
+                        $('#Novedades').addClass('desaparecer');
+                        $('#MostrarVermas').removeClass('desaparecer');
+                        var animado = $('#MostrarVermas').removeClass('desaparecer');
+                        $(animado).animate({
+                        opacity: 1,
+                        left:'0%'},200);
+                        return false
+                    }
+
+                    function verteotravez(){
+                        $('#Novedades').removeClass('desaparecer');
+                    }
+
+            }
 /*********Seccion Asociados*************/
             function asociados(){
                 $('#eventoAsocia').hide();
