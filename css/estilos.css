@@ -157,11 +157,11 @@ a:focus, a:active
 	font-size:1em ;
 	list-style: none;
 	text-align: center;
-	transition:.3s;
-	-webkit-transition:.3s;
-	-moz-transition:.3s;
-	-ms-transition:.3s;
-	-o-transition:.3s;
+	transition:.2s;
+	-webkit-transition:.2s;
+	-moz-transition:.2s;
+	-ms-transition:.2s;
+	-o-transition:.2s;
 }
 
 .MenuItem:hover{
@@ -322,7 +322,48 @@ a:focus, a:active
 }
 
 
+/**********CONTENIDO VER MAS**********************/
 
+p, .TextVermas{
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.ImageVermas{
+	width: 300px;
+	height: 182px;
+	border: 4px solid #DFDDDD;
+	float: left;
+	margin-bottom: .7em;
+	margin-right: 1em;
+}
+
+.ButtonReturn{
+	margin-top:2em;
+}
+
+.ButtonRegresar{
+	position:absolute;
+	right:0;
+	bottom:0;
+	padding:.3em .5em;
+	background: #FD9053;
+	border-radius: 4px;
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom:1em;
+	transition:.3s;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-ms-transition:.3s;
+	-o-transition:.3s;
+}
+
+.ButtonRegresar:hover{
+	cursor:pointer;
+	background: #D7530A;
+}
 
 /*************VIDEO***************/
 

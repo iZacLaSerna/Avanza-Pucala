@@ -1,12 +1,3 @@
-        // $(document).ready(enlace);
-        // function enlace(){
-        //     $('a').click(fijar);
-        // }
-
-        // function fijar(){
-        //     return false;
-        // }
-
         function inicializar(){
 
                 //Al cargar el sitio aparece el contenido de novedades.
@@ -60,8 +51,13 @@
             $(document).ready(botonVermas);
 
             function botonVermas(){
-                    $('.Vermas').click(masNovedades);
-                    $('#NovedadesClick').click(verteotravez);
+                    $('#SubContent1').click(masNovedades);
+                    $('#SubContent2').click(masNovedades2);
+                    $('#SubContent3').click(masNovedades3);
+
+                    $('.MenuItem').click(verteotravez);
+                    $('.ButtonRegresar').click(inicio);
+
                     function masNovedades(){
                         $('#Novedades').addClass('desaparecer');
                         $('#MostrarVermas').removeClass('desaparecer');
@@ -69,11 +65,51 @@
                         $(animado).animate({
                         opacity: 1,
                         left:'0%'},200);
+                        $('.MenuItem').removeClass('active');
+                        return false
+                    }
+
+                    function masNovedades2(){
+                        $('#Novedades').addClass('desaparecer');
+                        $('.MenuItem').removeClass('active');
+                        $('#MostrarVermas2').removeClass('desaparecer');
+                        var animado = $('#MostrarVermas2').removeClass('desaparecer');
+                        $(animado).animate({
+                        opacity: 1,
+                        left:'0%'},200);
+                        return false
+                    }
+
+                    function masNovedades3(){
+                        $('#Novedades').addClass('desaparecer');
+                        $('.MenuItem').removeClass('active');
+                        $('#MostrarVermas3').removeClass('desaparecer');
+                        var animado = $('#MostrarVermas3').removeClass('desaparecer');
+                        $(animado).animate({
+                        opacity: 1,
+                        left:'0%'},200);
                         return false
                     }
 
                     function verteotravez(){
+                        $('#MostrarVermas').addClass('desaparecer');
+                        $('#MostrarVermas2').addClass('desaparecer');
+                        $('#MostrarVermas3').addClass('desaparecer');
+
+                    }
+
+                    function inicio(){
+                        verteotravez();
+                        $('#Novedades').animate({
+                            opacity:0,
+                            left:'-8%'},200);
+                        
                         $('#Novedades').removeClass('desaparecer');
+
+                        $('#Novedades').animate({
+                            opacity:1,
+                            left:'0%'},200);
+                        return false
                     }
 
             }
