@@ -175,18 +175,80 @@
 
 /***********Seccion Estatutos************************/
 
+    /*   $(document).ready(recortar);
+
+       function recortar(){
+
+            $('.texto-cortado').each(realizar);
+
+            function realizar(){
+     
+                 var longitud=40;
+     
+                if($(this).text().length > longitud){
+                    var fecha=$('.fecha').text();
+                    var texto=$(this).text().substring(0,longitud);
+                    var indiceUltimoEspacio= texto.lastIndexOf(' ');
+                    texto=texto.substring(0,indiceUltimoEspacio) +'<span class="puntos">...</span>';
+             
+                    var primeraParte = '<span class="texto-mostrado">' + texto + '</span>' + fecha;
+                    // var segundaParte = '<span class="texto-ocultado">' + $(this).text().substring(indiceUltimoEspacio,$(this).text().length - 1) + '</span>';
+             
+                    $(this).html(primeraParte);
+                    // $(this).after('<span class="boton_mas_info">Ver más</span>');
+             
+                };
+     
+            }
+        }
+*/
+
         $(document).ready(desplegar);
 
         function desplegar(){
-            $('.ActasList').hide();
-            $('.Actas').click(ver)
+            $('.Item-actasList').click(ver)
 
             function ver(){
-                $(this).show();
+                $(".SubitemActivado").children().eq(1).hide();
+                $(".SubitemActivado").removeClass("SubitemActivado");
+                $(this).children().eq(1).fadeIn();
+                $(this).addClass("SubitemActivado");
             }
         }
 
+
         
 
-       
+       function asambleas(){
+                $('#eventoAsamblea').hide();
+                $('#Asamblea').click(presto);
+
+
+                function presto(){
+                    $('#ContentActas').hide();
+                    $('#eventoAsamblea').show(function(){
+                        $('#Asamblea').addClass('selecactive');
+                        $('#ActaDeConstitucion').removeClass('selecactive');
+
+                    });
+
+                    $('#ActaDeConstitucion').click(ocultate);
+
+                    function ocultate(){
+
+                        $('#ContentActas').show(function(){
+                            $('#ActaDeConstitucion').addClass('selecactive');
+                            $('#Asamblea').removeClass('selecactive');
+                        });
+
+                        $('#eventoAsamblea').hide();
+                    }
+                    
+                    // $('#eventoAsocia').removeClass('desaparecer');
+                }
+                
+
+            }
+
+            $(document).ready(asambleas);
         
