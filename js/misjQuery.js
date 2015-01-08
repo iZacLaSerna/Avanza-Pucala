@@ -173,7 +173,19 @@
             $(document).ready(eventos);
 
 
-       
+/***********Seccion Estatutos************************/
+
+        $(document).ready(desplegar);
+
+        function desplegar(){
+            $('.ActasList').hide();
+            $('.Actas').click(ver)
+
+            function ver(){
+                $(this).show();
+            }
+        }
+
         
 
        

@@ -571,7 +571,7 @@ p, .TextVermas{
 
 .ButtonAsociados, .ButtonAsocia {
 	background-color:#FD9053;/*#DADADA*/
-	width:7em;
+	width:10em;
 	height:3em;
 	font-size:1em;
 	color:white;
@@ -594,7 +594,7 @@ p, .TextVermas{
 
 .ButtonAsocia{
 	margin-top:4em;
-	margin-left:-7em;
+	margin-left:-10em;
 
 }
 
