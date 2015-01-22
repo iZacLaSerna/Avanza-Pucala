@@ -847,7 +847,65 @@ display: inline-block;
 
 @media screen and (max-width: 1024px){ 
 	.Header{
-		background:red;
+		width:100%;
+	}
+	
+	.HeaderTop{
+		width:98%;
+		height:7em;
+	}
+
+	.HeaderMenu{
+		width: 100%;
+		left: 0;
+		background: #95c930;
+		text-align: left;
+	}
+
+	.HeaderBottom {
+		width: 100%;
+		height: auto;
+		overflow: visible;
+	}
+
+	.MenuList{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.MenuItem {
+		display:inline-block;
+		width:auto;
+		height: auto;
+		background: #95c930;
+		border-bottom: none;
+		padding:0 1em;
+		
+	}
+	.MenuItem:hover{
+		border-bottom: none;
+	}
+	
+	.flexslider {
+		margin: 0;
+	}
+
+	.tamanio{
+		width: 100%;
+	}
+
+	.ContentSubtitle {
+		width: 100%;
+	}
+
+	.HeaderSlaider {
+		width: 100%;
+		display: inline-block;
+		position: static;
+		right: 0px;
+		vertical-align: center;
+		margin-top: 4.1em;
+		margin-left: 0em;
 	}
 
 }
