@@ -842,3 +842,55 @@ display: inline-block;
 .formSubmit:hover{
 	background-color:#D7530A
 }
+
+/***************media querys*******************************/
+
+@media screen and (max-width: 1024px){ 
+	.Header{
+		background:red;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.Header{
+		background:green;
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	.Header{
+		width:100%;
+
+	}
+
+	.FuenteLogo{
+		width: 70%;
+		padding: 0;
+		display:block;
+		margin:1em .5em;
+	}
+	
+	
+
+	.HeaderMenu{
+		display: none;
+	}
+
+	.HeaderSlaider{
+		display: none;
+	}
+
+	.SocialRedes{
+		display: none;
+	}
+	/*.FuenteTitle{
+		font-size: 2em;
+		color:#4d6e0b;
+		margin:0;
+		padding-top: .7em;
+	}*/
+
+}
