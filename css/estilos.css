@@ -268,7 +268,10 @@ a:focus, a:active
 	font-weight: normal;
 	margin: 0;
 }
-
+	
+	.NoveImage{
+		width:42%;
+	}
 
 .NovedadesImage{
 	width:300px;
@@ -393,7 +396,8 @@ p, .TextVermas{
 
 /*******************Footer*******/
 .Footer{
-	background: #668924;;
+	background: #668924;
+	text-align: left;
 }
 
 .map-content {
@@ -463,6 +467,7 @@ p, .TextVermas{
 	padding: .5px 0 0 16px;
 	margin-top: 2em;
 	border-left: 1px solid rgb(7, 61, 7);
+	text-align: left;
 }
 
 .FooterSocial {
@@ -599,6 +604,7 @@ p, .TextVermas{
 }
 
 .ContentAfiliacion{
+	position:relative;
 	width: 60%;
 	display: inline-block;
 }
@@ -696,9 +702,9 @@ p, .TextVermas{
 }
 
 /*********Acordeon***********/
-.ItemDate{
+.ItemDate {
 	position: absolute;
-	right: 215px;
+	right: -32px;
 }
 
 .SubItem-event{
@@ -758,7 +764,7 @@ p, .TextVermas{
 
 .fecha{
 	position:absolute;
-	right:29em;
+	right:0em;
 	margin-left:1em;
 }
 
@@ -768,8 +774,23 @@ p, .TextVermas{
 }
 
 .ContentAsamblea {
-width: 60%;
-display: inline-block;
+	position:relative;
+	width: 60%;
+	display: inline-block;
+}
+
+.ContentItem-Asamblea{
+	position:relative;
+}
+
+.Descarga{
+	margin-left: 1em;
+	text-decoration: none;
+	color: black;
+}
+
+.Descarga:hover{
+	font-weight: bold;
 }
 
 /****************Contacto*********************/
@@ -778,6 +799,7 @@ display: inline-block;
 	margin-left:2em;
 }
 .columna1,.columna2{
+	position:relative;
 	width:35%;
 	display:inline-block;
 }
@@ -822,22 +844,23 @@ display: inline-block;
 	display:inline-block;
 	margin-bottom:1em;
 	padding-left:.5em;
+	resize:none;
 }
 
 .formSubmit{
 	padding:.5em 1em;
-	display: inline-block;
+	display: block;
 	color:white;
 	background-color:#FD9053;
 	margin-top:1em;
-	position:relative;
+	position:absolute;
 	border:none;
 	border-radius:6px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-o-border-radius: 6px;
 	-ms-border-radius: 6px;
-	right:-242px;
+	right:0;
 }
 .formSubmit:hover{
 	background-color:#D7530A
@@ -853,6 +876,14 @@ display: inline-block;
 	.HeaderTop{
 		width:98%;
 		height:7em;
+	}
+	
+	.HeaderLogo{
+		margin-left:1.5em;
+	}
+
+	.FuenteLogo{
+		margin-left:11em;
 	}
 
 	.HeaderMenu{
@@ -871,6 +902,7 @@ display: inline-block;
 	.MenuList{
 		margin: 0;
 		padding: 0;
+		margin-left:1em;
 	}
 	
 	.MenuItem {
@@ -908,20 +940,100 @@ display: inline-block;
 		margin-left: 0em;
 	}
 
+	.Video{
+		display: none;
+	}
+
+	.ContentFacebook{
+		display:none;
+	}
+	
+	.ContainerInfo {
+		width: 97%;
+	}
+
+	.MostrarAfiliacion, .MostrarEvento{
+		padding-left: 1em;
+		margin-left: 0em;
+	}
+
+
+	.ContentImage-afiliado{
+		display:none;
+	}
+
+	.ItemDate{
+		right:5em;
+	}
+	
+	.SubItem-event{
+		text-align: left;
+	}
+	
+	.ContentAsamblea{
+		width:100%;
+	}
+
+	.ContentAfiliacion {
+		width: 100%;
+	}
+
+	.fecha{
+		right:6em;
+	}
+
+	.HeaderSlaider{
+		display:inline-block;
+	}
+
+	.NovedadesImage {
+		width:300px;
+		height:182px;
+	}
+
 }
 
 @media screen and (max-width: 768px){
 	.Header{
-		background:green;
+		background:red;
 		width:100%;
 	}
+	
+	.HeaderTop {
+		width: 100%;
+	}
 
+	.HeaderSocial, .HeaderSlaider{
+		display:none;
+	}
+	
+	.NoveImage{
+		width:42%;
+	}
+
+	.NovedadesImage {
+		width: 100%;
+		height: auto;
+	}
+	
+	.NewContent {
+		margin-left: 44%;
+	}
+
+	.FooterList, .FooterSocial{
+		display: none;
+	}
+
+	.Footer{
+		text-align: center;
+	}
+	
 }
 
 @media screen and (max-width: 480px){
 	.Header{
 		width:100%;
-
+		background:orange;
 	}
 
 	.FuenteLogo{

@@ -1,3 +1,24 @@
+/*        $(document).ready(function(){
+            
+            // cada vez que se mueva el scroll del navegador se ejecutara
+            // este evento
+            $(document).scroll(function(){
+            
+                // si la posicion del scroll es superior a 55 pixels...
+                if($(window).scrollTop()>45)
+                {
+                    // indicamos que el header tiene una posicion fija a -47 pixels
+                    $(".HeaderMenu").css({"position":"fixed", "top":-10});
+                   
+                }else{
+                    $(".HeaderMenu").css({"position":"inherit", "top":"inherit"});
+                                 }
+            });
+        });
+*/
+
+
+
         function inicializar(){
 
                 //Al cargar el sitio aparece el contenido de novedades.
