@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Avanza Pucala</title>
-	<!-- <link rel="stylesheet" type="text/css" href="css/estilos.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Slab" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
@@ -12,40 +12,41 @@
 <body>
 	<div class="AvanzaHero">
 		<header class="AvanzaHero-header u-wrapper">
-			<figure class="AvanzaHero-header-logo">
-				<a class="AvanzaHero-header-logo-content" href="#"><img src="img/logo.png" alt="logo Avanza Pucala" class="classLogo"></a>
-			</figure>
-			<div class="AvanzaHero-header-title">
-				<h1 class="AvanzaHero-header-title-prin"><span class="AvanzaHero-header-title-sec">Asociación de</span><br> Azucareros del Norte</h1>
+			<div class="AvanzaHero-header-content">
+				<figure class="AvanzaHero-header-content-logo">
+					<a class="AvanzaHero-header-content-logo-content" href="#"><img src="img/logo.png" alt="logo Avanza Pucala" class="classLogo"></a>
+				</figure>
+				<div class="AvanzaHero-header-content-titulo">
+					<h1 class="AvanzaHero-header-content-titulo-prin"><span class="AvanzaHero-header-content-titulo-sec">Asociación de</span><br> Azucareros del Norte</h1>
+				</div>
 			</div>
 		</header>
 	</div>
 	<div class="AvanzaCopy">
-		<section class="AvanzaCopy-container u-wrapper">
-			<nav class="AvanzaCopy-container-menu">
-				<ul class="MenuList">
-					<li id="NovedadesClick" class="MenuItem"><a class="Item_list" >Novedades</a></li>
-					<li id="NosotrosClick" class="MenuItem"><a class="Item_list" >Nosotros</a></li>
-					<li id="AsociadosClick" class="MenuItem"><a class="Item_list">Asociados</a></li>
-					<li id="EstatutosClick" class="MenuItem"><a class="Item_list" >Estatutos</a></li>
-					<li id="ContactoClick" class="MenuItem"><a class="Item_list" >Contacto</a></li>
-				</ul>
-			</nav>
-
-			<figure class="AvanzaCopy-Container-image">
-				<div class="flexslider">
-					<ul class="slides">
-						<li><img src="img/slaider.jpg" /></li>
-						<li><img src="img/slaider-1.jpg" /></li>
-						<li><img src="img/slaider-2.jpg" /></li>
-					</ul>
+		<div class="content u-wrapper">
+			<nav class="AvanzaCopy-navbar ">
+				<div class="AvanzaCopy-navbar-list u-wrapper">
+					<a href="#novedades" class="AvanzaCopy-navbar-list-item" >Novedades</a>
+					<a class="AvanzaCopy-navbar-list-item" >Nosotros</a></li>
+					<a class="AvanzaCopy-navbar-list-item">Asociados</a>
+					<a class="AvanzaCopy-navbar-list-item" >Estatutos</a>
+					<a class="AvanzaCopy-navbar-list-item" >Contacto</a>
 				</div>
+			</nav>
+			<figure class="AvanzaCopy-container ">
+				<ul class="AvanzaCopy-container-item">
+					<li><img src="img/slaider.jpg" /></li>
+					<li><img src="img/slaider-1.jpg" /></li>
+					<li><img src="img/slaider-2.jpg" /></li>
+				</ul>
 			</figure>
-		</section>
+		</div>
+
+
 	</div>
 	<div class="AvanzaMain">
 		<div class="AvanzaMain-content u-wrapper">
-			<section class="AvanzaMain-articulos">
+			<section id="novedades" class="AvanzaMain-articulos">
 				<h1 class="u-title">Novedades</h1>
 				<article class="AvanzaMain-articulos-content">
 					<figure class="AvanzaMain-articulos-content-image">
@@ -79,11 +80,19 @@
 						<buttom>Ver más</buttom>
 					</div>
 				</article>
+				<div class="AvanzaMain-articulos-pag">
+					<a class="AvanzaMain-articulos-pag-inactive u-paginacion" href="#">Anterior</a>
+					<a class="AvanzaMain-articulos-pag-active u-paginacion"href="#">Siguiente</a>
+				</div>
 			</section>
 			<section class="AvanzaMain-tangencial">
-				<aside class="AvanzaMain-tangencial-Video">
+				<aside class="AvanzaMain-tangencial-video">
 					<h1 class="u-title">Videos</h1>
-					<iframe class="youtube-player" type="text/html"  src="http://www.youtube.com/embed/xpJbKn6LtqI" frameborder="0"></iframe>
+					<div class="AvanzaMain-tangencial-video-content">
+						<iframe class="AvanzaMain-tangencial-video-content-deo" width="250" height="141" src="https://www.youtube.com/embed/OHQAgh0vkUU" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+
 				</aside>
 
 				<aside class="AvanzaMain-tangencial-Face">
@@ -100,75 +109,46 @@
 
 	<footer class="AvanzaFooter">
 		<div class="AvanzaFooter-content u-wrapper">
-			<div class="AvanzaFooter-content-map">
-				<ul class="AvanzaFooter-content-mapSite">
-					<li id="NovedadesCClick" class="AvanzaFooter-content-mapSite-item"><a  href="">Novedades</a></li>
-					<li id="NosotrosCClick" class="AvanzaFooter-content-mapSite-item"><a  href="">Nosotros</a></li>
-					<li id="AsociadosCClick" class="AvanzaFooter-content-mapSite-item"><a  href="">Asociados</a></li>
-					<li id="EstatutosCClick" class="AvanzaFooter-content-mapSite-item"><a  href="">Estatutos</a></li>
-					<li id="ContactoCClick" class="AvanzaFooter-content-mapSite-item"><a  href="">Contacto</a></li>
-				</ul>
-			</div>
-
 			<div class="AvanzaFooter-content-logo">
 				<div class="AvanzaFooter-content-logo-address">
-					<h3>Avanza<br>Pucala</h3>
-					<span>
-						Av. Centenario 456 <br/>
-						km 4 <br/>
-						Telf. 074 - 542113 <br/>
-						avanzapucala@hotmail.com
+					<h3 class="AvanzaFooter-content-logo-address-title">Avanza<br>Pucala</h3>
+					<span class="AvanzaFooter-content-logo-address-direc">
+						Av. Centenario 456 km 4 Telf. 074 - 542113 avanzapucala@hotmail.com
 					</span>
 				</div>
+				<div class="AvanzaFooter-content-logo-map">
+					<div class="AvanzaFooter-content-logo-map-fila">
+						<a  href="">Novedades</a>
+						<a  href="">Nosotros</a>
+						<a  href="">Asociados</a>
 
+					</div>
+					<div class="AvanzaFooter-content-logo-map-fila">
+						<a  href="">Estatutos</a>
+						<a  href="">Contacto</a>
 
-				<div class="AvanzaFooter-content-logo-Social">
+					</div>
+
+				</div>
+				<div class="AvanzaFooter-content-logo-social">
 					<h3>
 						Siguenos en:
 					</h3>
-					<ul class="AvanzaFooter-content-logo-Social-list">
-						<a class="AvanzaFooter-content-logo-Social-list-item"  target="_blank" href="https://www.facebook.com/avanza.pucala?ref=ts&fref=ts">
-							<li class="FooterFace icon-facebook u-space"></li>
+					<div class="AvanzaFooter-content-logo-social-list">
+						<a class="AvanzaFooter-content-logo-social-list-item icon-facebook"  target="_blank" href="https://www.facebook.com/avanza.pucala?ref=ts&fref=ts">
+
 						</a>
-						<a class="AvanzaFooter-content-logo-Social-list-item"  target="_blank" href="">
-							<li class=" icon-twitter "></li>
+						<a class="AvanzaFooter-content-logo-social-list-item icon-twitter "  target="_blank" href="">
 						</a>
-						<a class="AvanzaFooter-content-logo-Social-list-item"  target="_blank" href="">
-							<li class="icon-youtube "></li>
+						<a class="AvanzaFooter-content-logo-social-list-item icon-youtube "  target="_blank" href="">
 						</a>
-					</ul>
+					</div>
 				</div>
 			</div>
-			<div class="AvanzaFooter-content-copy">
-					Todos los derechos reservados 2014 <span>Sitio web desarrollado por iclasac@outlook.es</span>
-			</div>
 		</div>
-
+		<div class="AvanzaFooter-copy ">
+				Todos los derechos reservados 2014 <span>Sitio web desarrollado por iclasac@outlook.es</span>
+		</div>
 	</footer>
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/misjQuery.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-
-
-		<script>
-
-
-			$(window).load(function() {
-  				$('.flexslider').flexslider({
-   				animation: "slide"
-  					});
-			});
-
-
-
-
-// prueba 1
-
-
-
-
-
-		</script>
-
 </body>
 </html>

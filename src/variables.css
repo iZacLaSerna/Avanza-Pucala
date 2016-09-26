@@ -1,0 +1,20 @@
+:root {
+  --verdeClaro: #82AD2C;
+  --verdeOscuro:#4d6e0b;
+  --verdeMenu: #95c930;
+  --bgMain: #f4f4f4;
+  --bgTitle: #D9DDD2;
+  --bgSubtitle: #9dd33a;
+  --bgFooter:#668924;
+
+  /*boton*/
+  --btn: #FD9053;
+  /*fuente*/
+  --Fjalla: 'Fjalla One', sans-serif;
+  --roboto: 'Roboto Slab', serif;
+}
+
+/*@custom-media --desktop (max-width:800px);
+@custom-media --siete30 (max-width:730px);
+@custom-media --tablet (max-width:690px);
+@custom-media --celular (max-width:525px);*/
